@@ -9,7 +9,7 @@ import './Checkout.css';
 function Checkout( { swagInCart, total, checkout } ) {
 
   const swagComponents = swagInCart.map( swag => (
-    <Product 
+    <Product
       key={ swag.id }
       title={ swag.title }
       img={ swag.img }

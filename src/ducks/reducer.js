@@ -16,7 +16,7 @@ export default function reducer( state = initialState, action ) {
   console.log("Action:", action);
   switch( action.type ) {
 
-    case ADD_TO_CART: 
+    case ADD_TO_CART:
       if ( state.cart.indexOf( action.payload ) === -1 ) {
         return {
           swag: state.swag,
